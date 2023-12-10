@@ -1,0 +1,230 @@
+.nav{
+    background-color: bisque;
+    margin: 15px 15px;
+    position: relative;
+  }
+  .footer{
+    padding: 10px 0px;
+    background-color: bisque;
+    margin: 15px 15px;
+    text-align: center;
+  }
+  .footer ul{
+    list-style-type: none;
+  }
+  .footer ul div li{
+    display: inline;
+    margin-right: 10px;
+  }
+  .footer ul div li a{
+    color: black;
+    text-decoration: none;
+  }
+  #logo{
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+  }
+  .logocontainer{
+    width: 150px;
+    height: 100px;
+    margin: 0px 60px;
+    padding: 5px 0px;
+    display: inline-block;
+  }
+  .row{
+    position: absolute;
+    right: 70px;
+    display: inline-block;
+    padding-top:50px ;
+  }
+  .reseausoc{
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    
+  }
+.lienres ,.res{
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+}
+.lienpr{
+    display: inline-block;
+    padding: 5px 0.5% 15px  0.5%;
+    width: 11%;
+    text-align: center;
+    margin-bottom: 10px;
+   
+}
+.lienprclic{
+    background-color: rgb(250, 250, 250);
+}
+.lienpr a{
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+.infos{
+    text-align: center;
+}
+.infos h4,.infos p{
+    margin: 10px 37px;
+    display: inline-block;
+}
+.tableau td,.tableau th{
+    text-align: center;
+    padding: 20px 20px;
+}
+.tableau td,.tableau th{
+    font-size: 18px;
+}
+
+.grey{
+    background-color: gray; 
+}
+#ajou_form{
+  text-align: center;
+  margin: 50px 0px;
+  display: none;
+}
+.inp_cont{
+  margin: 30px 0;
+}
+.sub_cont{
+  float: right;
+  margin-right: 180px;
+  margin-bottom: 50px;
+}
+
+.tableau{
+    margin: 50px auto 0px auto;
+}
+.firstcolumn{
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 10px;
+    font-size:20px;
+    background-color: rgb(224, 219, 212);
+    margin-left: 10px;
+    }
+.log,.annuler{
+    padding: 10px 30px;
+        border: 0;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size:20px;
+        margin-left: 15px;
+}
+.desc{
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  }
+  td .desc{
+    width: 300px;
+  }
+.log{
+  background-color: rgb(98, 124, 238);
+}
+.annuler{
+  background-color: rgb(137, 140, 143);
+}
+#formrech_ing{
+ text-align: center;
+ margin: 30px 100px;
+}
+#aj,#formrech_ing{
+  display: inline-block;
+}
+#aj{
+  margin-left: 60px;
+}
+.cont_tab{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+h1{
+margin: 100px 40% 50px 40%;
+}
+.sup,.val,.blo{
+  padding: 8px 20px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size:15px;
+  margin-left: 10px;
+}
+.sup{
+  background-color: rgb(245, 52, 52);
+}
+.val{
+  background-color: rgb(142, 206, 223);
+}
+.blo{
+  background-color: rgb(221, 219, 109);
+}
+.hid{
+  border: 0px;
+}
+.tableau th:not(.hid),.tableau td:not(.hid){
+  border: 1px;
+  border-style: dashed;
+}
+
+select{
+  padding: 10px 30px;
+      border: 0.4;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size:17px;
+      background-color: none;
+      margin-left: 30px;
+      width: 20%;
+}
+#filtre_form{
+  text-align: center;
+  margin: 50px 0px 100px 0px;
+}
+.inputs_ajou{
+  padding: 10px 30px;
+  border: 0.4;
+  border-radius: 5px;
+  font-size:17px;
+  background-color: none;
+  margin-left: 30px;
+  width: 17%;
+}
+#par{
+  padding: 10px 30px;
+  border: 0.4;
+  border-radius: 5px;
+  font-size:23px;
+  background-color: none;
+  margin-left: 30px;
+  width: 50%;
+}
+#ajou_form,#mod_form{
+  text-align: center;
+  margin: 50px 0px;
+  display: none;
+}
+.inp_cont{
+  margin: 30px 0;
+}
+.sub_cont{
+  float: right;
+  margin-right: 180px;
+  margin-bottom: 50px;
+}
+caption{
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+

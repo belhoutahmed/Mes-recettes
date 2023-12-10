@@ -1,0 +1,93 @@
+.log{
+    padding: 10px 30px;
+        border: 0;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size:20px;
+        margin-left: 15px;
+}
+.log{
+  background-color: rgb(98, 124, 238);
+}
+.input_change{
+    padding: 10px 30px;
+    border: 0.4;
+    border-radius: 5px;
+    font-size:17px;
+    background-color: none;
+    margin-left: 30px;
+    width: 17%;
+  }
+  h3{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  #change,#changeh,#changes{
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  #form_change,#form_changeh,#form_changes{
+    display: none;
+  }
+  #change,#changeh,#changes,.pource{
+    display: inline-block;
+  }
+  .pource{
+    margin-left: 40%;
+  }
+  h4 span{
+    margin-left: 14px;
+    font-size: 17px;
+  }
+  h4{
+    font-size: 18px;
+  }
+  .sup,.val,.blo{
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:15px;
+    margin-left: 10px;
+  }
+  .sup{
+    background-color: rgb(245, 52, 52);
+  }
+  .val{
+    background-color: rgb(142, 206, 223);
+  }
+  .blo{
+    background-color: rgb(221, 219, 109);
+  }
+  .hid{
+    border: 0px;
+  }
+  .tableau th:not(.hid),.tableau td:not(.hid){
+    border: 1px;
+    border-style: dashed;
+  }
+  .tableau td,.tableau th{
+    text-align: center;
+    padding: 20px 20px;
+}
+.tableau td,.tableau th{
+    font-size: 18px;
+}
+
+.grey{
+    background-color: gray; 
+}
+
+.tableau{
+    margin: 50px 100px;
+    display: inline;
+}
+.change_param{
+    margin-bottom: 70px;
+}
+caption{
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

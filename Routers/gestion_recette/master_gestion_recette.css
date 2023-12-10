@@ -1,0 +1,70 @@
+#aff{
+    text-align: right;
+    margin-top: 15px;
+  }
+  select{
+    padding: 10px 30px;
+        border: 0.4;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size:17px;
+        background-color: none;
+        margin-left: 30px;
+        width: 20%;
+}
+#filtre_form{
+    text-align: center;
+    margin: 50px 0px;
+}
+.log{
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:20px;
+    background-color: rgb(79, 107, 233);
+    margin-left: 15px;
+  }
+  .tableau td,.tableau th{
+    text-align: center;
+    padding: 20px 20px;
+}
+.tableau td,.tableau th{
+    font-size: 18px;
+}
+
+.grey{
+    background-color: gray; 
+}
+
+.tableau{
+    margin: 35px auto 150px auto;
+}
+.sup,.val,.blo{
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:15px;
+    margin-left: 10px;
+  }
+  .sup{
+    background-color: rgb(245, 52, 52);
+  }
+  .val{
+    background-color: rgb(142, 206, 223);
+  }
+  .blo{
+    background-color: rgb(221, 219, 109);
+  }
+  .hid{
+    border: 0px;
+  }
+  .tableau th:not(.hid),.tableau td:not(.hid){
+    border: 1px;
+    border-style: dashed;
+  }
+  caption{
+    font-size: 25px;
+  }
+  

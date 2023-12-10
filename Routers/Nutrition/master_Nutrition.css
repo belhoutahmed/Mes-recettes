@@ -1,0 +1,136 @@
+.nav{
+    background-color: bisque;
+    margin: 15px 15px;
+    position: relative;
+  }
+  .footer{
+    padding: 10px 0px;
+    background-color: bisque;
+    margin: 15px 15px;
+    text-align: center;
+  }
+  .footer ul{
+    list-style-type: none;
+  }
+  .footer ul div li{
+    display: inline;
+    margin-right: 10px;
+  }
+  .footer ul div li a{
+    color: black;
+    text-decoration: none;
+  }
+  #logo{
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+  }
+  .logocontainer{
+    width: 150px;
+    height: 100px;
+    margin: 0px 60px;
+    padding: 5px 0px;
+    display: inline-block;
+  }
+  .row{
+    position: absolute;
+    right: 70px;
+    display: inline-block;
+    padding-top:50px ;
+  }
+  .reseausoc{
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    
+  }
+.lienres ,.res{
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+}
+.lienpr{
+    display: inline-block;
+    padding: 5px 0.5% 15px  0.5%;
+    width: 11%;
+    text-align: center;
+    margin-bottom: 10px;
+   
+}
+.lienprclic{
+    background-color: rgb(250, 250, 250);
+}
+.lienpr a{
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+.infos{
+    text-align: center;
+}
+.infos h4,.infos p{
+    margin: 10px 37px;
+    display: inline-block;
+}
+.tableau td,.tableau th{
+    text-align: center;
+    padding: 10px 10px;
+}
+.tableau td{
+    font-size: 20px;
+}
+.tableau th{
+    font-size: 20px;
+}
+.grey{
+    background-color: gray; 
+}
+.tableau ,.tableau th,.tableau td{
+    border-style: dashed;
+}
+.tableau{
+    margin: 35px auto 150px auto;
+}
+.firstcolumn{
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 10px;
+    font-size:20px;
+    background-color: rgb(224, 219, 212);
+    margin-left: 10px;
+    }
+.log{
+    padding: 10px 30px;
+        border: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size:20px;
+        background-color: rgb(142, 206, 223);
+        margin-left: 15px;
+}
+#formrech_ing{
+ text-align: center;
+ margin: 30px auto;
+}
+.cont_tab{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+h1{
+margin: 100px 40% 50px 40%;
+}
+
+#signup,#profil{
+  background: none;
+  border: 0;
+  cursor: pointer;
+  color: rgb(104, 96, 90);
+  font-size: 22px;
+  text-decoration: none;
+}
+#signup:hover,#profil:hover{
+  color:rgb(245, 124, 11);
+}

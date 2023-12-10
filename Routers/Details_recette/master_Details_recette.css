@@ -1,0 +1,215 @@
+
+
+.img{
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    
+}
+.img img{
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    object-fit: cover;
+    height: 480px;
+}
+.info_recette{
+    display: inline-block;
+   
+    
+}
+.info h4,.info p{
+    display: inline-block;
+}
+
+.info p{
+    margin-left: 30px;
+}
+.inglist{
+    margin: 0 auto;
+    width: 30%;
+    max-height: 300px;
+    background-color: rgb(235, 229, 229);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    padding-bottom: 10px;
+}
+.ingredients{
+    text-align: center;
+    justify-content: center;
+}
+.etlist{
+    margin: 0 auto;
+    width: 70%;
+    max-height: 300px;
+    padding-bottom: 10px;
+    background-color: rgb(235, 229, 229);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+}
+.etapes{
+    margin: 30px 0;
+    text-align: center;
+    justify-content: center;
+}
+.roww{
+    background-color: white;
+    height: 70px;
+    justify-content: center;
+   
+}
+.partie img{
+    
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.partie h3{
+    display: inline-flex;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.partie{
+    display: inline-flex;
+    margin:0px 60px;
+    
+}
+.etlist ul{
+    float: left;
+    margin-left: 15px;
+}
+.etlist ul li{
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 25px;
+    text-align: left;
+}
+.etlist, .inglist{
+    overflow-x: auto;
+   
+}
+.inglist li{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 25px;
+    text-align: left;
+}
+.inglist ul{
+    float: left;
+    margin-left: 15px;
+}
+.nav{
+    background-color: bisque;
+    margin: 15px 15px;
+    position: relative;
+  }
+  .footer{
+    padding: 10px 0px;
+    background-color: bisque;
+    margin: 15px 15px;
+    text-align: center;
+  }
+  .footer ul{
+    list-style-type: none;
+  }
+  .footer ul div li{
+    display: inline;
+    margin-right: 10px;
+  }
+  .footer ul div li a{
+    color: black;
+    text-decoration: none;
+  }
+  #logo{
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+  }
+  .logocontainer{
+    width: 150px;
+    height: 100px;
+    margin: 0px 60px;
+    padding: 5px 0px;
+    display: inline-block;
+    
+  }
+  .row{
+    position: absolute;
+    right: 70px;
+    display: inline-block;
+    padding-top:50px ;
+  }
+  .reseausoc{
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    
+  }
+.lienres ,.res{
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+}
+.lienpr{
+    display: inline-block;
+    padding: 5px 0.5% 15px  0.5%;
+    width: 11%;
+    text-align: center;
+    margin-bottom: 10px;
+   
+}
+.lienprclic{
+    background-color: rgb(250, 250, 250);
+}
+.lienpr a{
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+body h2,.contt,.info_cont{
+    text-align: center;
+}
+.cont_info{
+    text-align: center;
+}
+.cont_info p{
+    margin: 20px 50px;
+    font-size: 21px;
+}
+#signup,#profil{
+    background: none;
+    border: 0;
+    cursor: pointer;
+    color: rgb(104, 96, 90);
+    font-size: 22px;
+    text-decoration: none;
+  }
+  #signup:hover,#profil:hover{
+    color:rgb(245, 124, 11);
+  }
+form{
+    margin-bottom: 20px;
+  }
+  .aj,.sup{
+    padding: 7px 24px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size:18px;
+    margin-left: 12px;
+  }
+  .aj{
+    background-color: rgb(241, 70, 39);
+  }
+ .sup{
+    background-color: rgb(77, 77, 78);
+ }
